@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Acme Web — Home</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo" aria-label="Acme Web Home">Acme Web</a>
+      <nav aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="signin.html">Sign In</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container">
+        <h1 id="hero-title">Build beautiful web pages — fast</h1>
+        <p class="lead">A small responsive demo site built for the HTML5 course final project.</p>
+        <p><a class="btn" href="services.html">See Services</a> <a class="btn ghost" href="signup.html">Get Started</a></p>
+      </div>
+    </section>
+
+    <section class="features container" aria-labelledby="features-title">
+      <h2 id="features-title">Why choose us</h2>
+      <div class="features-grid">
+        <article>
+          <h3>Semantic HTML</h3>
+          <p>We use proper HTML5 elements for better accessibility and SEO.</p>
+        </article>
+        <article>
+          <h3>Responsive</h3>
+          <p>Layouts adapt to mobile, tablet, and desktop automatically.</p>
+        </article>
+        <article>
+          <h3>Simple JS</h3>
+          <p>Lightweight JavaScript for form validation and small interactions.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="container quick-contact" aria-labelledby="contact-title">
+      <h2 id="contact-title">Quick contact</h2>
+      <p>Want to test the signup? Create a free demo account.</p>
+      <a class="btn" href="signup.html">Create Account</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Acme Web. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
